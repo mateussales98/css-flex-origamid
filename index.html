@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Blog</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/scss/styles.css">
+</head>
+
+<body>
+
+  <div class="superinfo-bg">
+    <div class="superinfo">
+      <p>Seg / Sex - 08h00 ás 18h00</p>
+      <a href="tel:+5511999999999">+55 11 99999-9999</a>
+      <p>Av. Paulista, 1500 - São Paulo, SP</p>
+    </div>
+  </div>
+
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="#">Flex Blog</a>
+      </div>
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produto">Produto</a></li>
+          <li><a href="#preco">Preço</a></li>
+          <li><a href="#qualidade">Qualidade</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <h1 class="introducao">Novos Valores e Novas Propriedades de CSS</h1>
+
+  <section id="sobre" class="sobre">
+    <div class="sobre-info">
+      <h1>Sobre</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse odio voluptate aliquid et quo, aperiam at nisi
+        laudantium impedit vel cupiditate pariatur, explicabo recusandae facere possimus facilis, eos quam eligendi?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis est assumenda, excepturi magnam quo
+        hic necessitatibus. Ab nisi exercitationem corrupti deleniti, quis adipisci doloribus id! Saepe voluptate
+        commodi velit?</p>
+    </div>
+    <div class="sobre-img">
+      <img src="https://www.bitdegree.org/learn/storage/media/images/661999ba-c216-4c71-b959-82f878309730.o.png"
+        alt="random image">
+    </div>
+    <div class="sobre-img">
+      <img src="https://www.chiefofdesign.com.br/wp-content/uploads/2017/11/flexbox-css.png" alt="random image">
+    </div>
+  </section>
+  <section class="produtos" id="produtos">
+    <h1>Produtos</h1>
+    <div class="produtos-container">
+      <div class="produtos-item purple">
+        <h2>Purple</h2>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEXav/8AAADcwf+7pNjGreXjx//hxf/fw//ixv/nyv8pJDF1Z4eZhrHJsOjIr+WijrvqzP/Vu/dTSWFgVHBJQFQ2Lz99bo8iHiiFdZo+N0fOte6QfqSkj7xnWnhZTmhBOUu0ns9wYoAPDhR/b5OumcokICtPRVwaFx8UERnx1P+Ugqy3odSwmsXDq90wKjiLeqDUyPtPAAAEvElEQVR4nO2Y63aiSBRGrSJ1U0EJaAQVNRrt1jF5/7ebc6rAZOgkK90tY358e2VFLOpydl3BXg8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHxXpDFG3jqId7lSZDISQtx9R0V5R5FFfx8ZDG8HDL9cDwzfKSKv3iHynTpvaBiX5ZUVZRrHabvOmxnKUohH99FNrc0fBKE3QgzbBW9q2P/A0CyEmOrfD0IPhBj9H4ZWWWmV4qakUrpnlOJL+tB1Q3SpvKEM2bRSfEfqkEWx4bhWlMpqymZlKHfJbq3l6rlaU1fdGDb1dGUos2wZZUW2UDRQVTYYD/M9aaYvebGJvKsd3hebMxuuq4ymlZ5lFZW1d9NVPi2N3uZCTLIXPxpcxfZU+aJyl2VkoAdZVaosq9S66qe7KlsM8xWVawx1OcuLQdL0UAeGoqayMhYi3wrxpPQ6pA0oTvlcZ+iPh5Sie2rPMah5SN25lf/MrK8tbqrbKnMUYkbZJ0IkjlJoqEU6bO7vTDDUi/B9pDs17LPFTFF4D3Rx4AtxoMjEXKt7+pg8eMORX3CcEvnAnilL4ZZ9KlaElRgMJ08spGrDojY8XAyLR/pXWjbUHEnObSSyQ8Ojczv6MD68edlTGQ+fO9E3zWmJc4OWoaJ4R1Rsp3pctlmH3nDtHA1wMW4Zik2cGjL8kTpdURGuc+Roii9+/jz72dGZ4YGWm6Owk9J3vZSK+pgOY7ekxshqRptE2jKkrJMxH9phLx00y4gnOu25jjrAtAw3Tko2nGu/NedjP4Y8FZ4eaA6tVHeGfAyoZQj7wEeCorvUnp4KcSKruSGTV0PujIhM9vXp0TasuMMoZBkMXWPITwxsSJsVd9jEG5pmXYqHDg1FrI2mYSspvILb4W4/KaNo9ZU0VVfOqDUbksrS6dLHwItKG0lnvT8PnbkYCmO0f0DgjcnZRNSG/gChtP3YOOqrzBs6auOfc3Smvy7X4WE48tOkMeQ4xHxE+0iueBrlC944+45bPx65wyMe86fjsN8fSUPrsD8KZ7c3nIyO1F8bxet46LfcYFiPoagWW78c2FC90CzdnXeZrLuow9NCJLzTTPxcsfd1Wunjr08Lp8LBQHtnZNJDSF0ZXlRC3LdOC5FK1w/Tr23o2atwWtj8kr87wx8bjjQxHN6zN+zZF24041btmgOd8oYkU1ZcVxyDlFyKFqDsac5cXQwnFX+lorKkmfEYFa1ZuuSjidYzP5fSyIemDotOx1CVUekfxNK0edjXJjmnKuSwcZRqf0vaMjGGLn2yTBLpvXSa1C8ebFiMKX/9XBfX2WUo4w1nLomk7l3StInPcfPs3pHh5UXt7Qvbm2u+rL/y/ze5ZSuvH0P1WvSSvU5iw6l+LfZrUx0Z/nWFl4pfJ/q78Bn56XtIF4bLzeaKhuVys/3EQO6Wy1/emP6ToYO3J23/4N3u45rt59XR/U/flvFL1JfrgeHNgOGX6zl9a8PTNSKL4/gKtXTBtSLr4CfsK/F9IwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK7Cv7UyQJ/qiYRaAAAAAElFTkSuQmCC"
+          alt="random image">
+      </div>
+
+      <div class="produtos-item pink">
+        <h2>Pink</h2>
+        <img src="https://zula.sg/wp-content/uploads/2020/03/starbucks-singapore-sakura-3.jpg" alt="random image">
+      </div>
+      <div class="produtos-item blue">
+        <h2>Blue</h2>
+        <img
+          src="https://images.ctfassets.net/s600jj41gsex/1cVXeGXBIHNdltINLXRVNz/55b7b4fd70734935fcf95620a4d1afd9/OPEN.png?w=739&q=50&fit=scale"
+          alt="random image">
+      </div>
+    </div>
+  </section>
+  <section class="preco" id="preco">
+    <div class="preco-item">
+      <h2>Cobre</h2>
+      <span><sup>R$</sup> 19</span>
+      <ul>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restritos</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+      </ul>
+      <a href="#">Comprar</a>
+    </div>
+    <div class="preco-item">
+      <h2>Prata</h2>
+      <span><sup>R$</sup> 39</span>
+      <ul>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restritos</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <li>Acesso Vitalício</li>
+      </ul>
+      <a href="#">Comprar</a>
+    </div>
+    <div class="preco-item">
+      <h2>Ouro</h2>
+      <span><sup>R$</sup> 79</span>
+      <ul>
+        <li>Planos Ilimitados</li>
+        <li>Acesso Restritos</li>
+        <li>Conteúdo Secreto</li>
+        <li>Suporte 24h</li>
+        <li>Acesso Vitalício</li>
+        <li>Download dos itens</li>
+      </ul>
+      <a href="#">Comprar</a>
+    </div>
+  </section>
+  <section class="qualidade" id="qualidade">
+    <div class="qualidade-item">
+      <h2>Inteligente</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quisquam in facere laudantium itaque veritatis
+        optio cum tempora expedita rerum aperiam, delectus nisi mollitia nostrum harum blanditiis, illo quaerat. Quo!
+      </p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Compacto</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, eos quisquam nemo earum autem at suscipit
+        iusto cum nulla ullam, voluptatem facilis illo, pariatur quos laborum vitae. Earum, reprehenderit quas.</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Econômico</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam consequuntur fugit saepe maxime
+        similique neque rerum eaque harum dolorum itaque fuga quod maiores est nobis libero, eius id pariatur.</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Transparente</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa autem dignissimos numquam similique nostrum
+        quod ipsam magnam cum odit, adipisci sed impedit ex et rem pariatur vitae quam maxime?</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Opaco</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias at ut rem fuga aspernatur labore quia
+        nulla. Facilis ut accusantium enim voluptatum, officiis, voluptates minus aperiam consectetur suscipit rem
+        adipisci?</p>
+    </div>
+    <div class="qualidade-item">
+      <h2>Sustentável</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quisquam in facere laudantium itaque veritatis
+        optio cum tempora expedita rerum aperiam, delectus nisi mollitia nostrum harum blanditiis, illo quaerat. Quo!
+      </p>
+    </div>
+  </section>
+  <section class="newsletter">
+    <div class="newsletter-info">
+      <h1>Newsletter</h1>
+      <p>Assine e fique por dentro das novidades</p>
+    </div>
+    <form class="newsletter-form" action="">
+      <input type="email" name="" id="">
+      <button type="submit">Assine</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <p>FlexBlog - Todos os direitos reservados</p>
+  </footer>
+</body>
+
+</html>
